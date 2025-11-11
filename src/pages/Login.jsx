@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import AuthLayout from '../components/layout/AuthLayout';
-import LoginForm from '../components/features/LoginForm';
+import AuthLayout from '../components/layout/AuthLayout.jsx';
+import LoginForm from '../components/features/LoginForm.jsx';
 
 const Login = () => {
   const navigate = useNavigate();

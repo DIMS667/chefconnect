@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../ui';
-import RecipeGrid from './RecipeGrid';
+import RecipeGrid from './RecipeGrid.jsx';
 
 const PopularRecipes = ({ recipes = [], loading = false }) => {
   return (

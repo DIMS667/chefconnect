@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Layout from '../components/layout/Layout';
-import Hero from '../components/features/Hero';
-import PopularRecipes from '../components/features/PopularRecipes';
-import Categories from '../components/features/Categories';
+import Layout from '../components/layout/Layout.jsx';
+import Hero from '../components/features/Hero.jsx';
+import PopularRecipes from '../components/features/PopularRecipes.jsx';
+import Categories from '../components/features/Categories.jsx';
 
 const Home = () => {
   const [popularRecipes, setPopularRecipes] = useState([]);

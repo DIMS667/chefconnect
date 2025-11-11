@@ -1,5 +1,5 @@
 // API Configuration
-export const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 export const API_ENDPOINTS = {
   auth: {
     login: '/auth/login',
@@ -34,7 +34,7 @@ export const APP_CONFIG = {
   name: 'ChefConnect',
   version: '1.0.0',
   description: 'Connect with chefs worldwide and discover amazing recipes',
-  url: process.env.REACT_APP_URL || 'http://localhost:3000'
+  url: import.meta.env.VITE_APP_URL || 'http://localhost:3000'
 };
 
 // Authentication
