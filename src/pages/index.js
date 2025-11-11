@@ -1,0 +1,9 @@
+export { default as Home } from './Home';
+export { default as Login } from './Login';
+export { default as Register } from './Register';
+export { default as Recipes } from './Recipes';
+export { default as RecipeDetail } from './RecipeDetail';
+export { default as Profile } from './Profile';
+export { default as About } from './About';
+export { default as Blog } from './Blog';
+export { default as NotFound } from './NotFound';
